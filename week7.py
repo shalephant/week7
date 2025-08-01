@@ -15,13 +15,3 @@ def simulate_zkp(trials=20):
     print(f"Success rate: {success_count / trials * 100:.2f}%")
 
 simulate_zkp()
-
-
-def fibonacci(n):
-    sequence = []
-    a, b = 0, 1
-    for _ in range(n):
-        sequence.append(a)
-        a, b = b, a + b
-    return sequence
-    
